@@ -34,7 +34,6 @@ const MyStudents = () => {
       
     const handleSave = () =>{
         dispatch(addStudent({name:name, regno:regno, marks: marks}))
-        alert(name)
     }
       
 
